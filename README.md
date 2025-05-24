@@ -98,7 +98,7 @@ streamlit run app.py
 ## Legal Dataset
 
 - RTI Act, IPC, Environmental Acts, etc.
-- 4000+ Case Judgments (manually scraped from Indian Kanoon)
+- 5000+ Case Judgments (manually scraped from Indian Kanoon)
 - Combined into `Legal_corpus.txt`
 
 ---
@@ -138,7 +138,7 @@ Licensed under the MIT License.
 
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 - Google’s Gemma Model
 - Meta’s LLaMA3 Architecture
