@@ -34,9 +34,9 @@ LEGAL-AI-MODEL/
 │   ├── templates/              # HTML Templates
 │   └── main.py                 # FastAPI routing + frontend logic
 │
-├── model/                      # Gemma model & tokenizer
+├── model/                      # Gemma model & tokenizer (Automatically will be created from the Script)
 │
-├── storage/                    # LlamaIndex vector stores
+├── storage/                    # LlamaIndex vector stores (Automatically will be created from the Script)
 │   ├── docstore.json
 │   ├── graph_store.json
 │   ├── index_store.json
