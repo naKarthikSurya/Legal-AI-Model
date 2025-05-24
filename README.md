@@ -23,7 +23,7 @@ A powerful, privacy-preserving legal information retrieval system designed speci
 ## Directory Structure
 
 ```plaintext
-LEGAL-AI-ASSISTANT/
+LEGAL-AI-MODEL/
 │
 ├── legaldata/
 │   ├── raw/                    # Raw PDFs: case_judgements, laws_acts
@@ -57,8 +57,8 @@ LEGAL-AI-ASSISTANT/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/naKarthikSurya/LegalAIModel.git
-cd LegalAIModel.git
+git clone https://github.com/naKarthikSurya/Legal-AI-Model.git
+cd Legal-AI-Model.git
 ```
 
 ### 2. Set Up a Virtual Environment
@@ -72,7 +72,7 @@ pip install -r requirements.txt
 ### 3. Run the FastAPI Server
 
 ```bash
-uvicorn main.main:app --reload
+python main/main.py
 ```
 
 Visit: `http://localhost:8000`

@@ -1,3 +1,5 @@
+#To Keep the Model and Data Folder
+
 touch legaldata/raw/.gitkeep
 touch legaldata/final/.gitkeep
 touch model/models--google--gemma-2b-it/.gitkeep
