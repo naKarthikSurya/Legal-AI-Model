@@ -9,16 +9,12 @@ __pycache__/
 # Ignore PDFs and legal corpus text file
 legaldata/raw/*
 legaldata/final/*
-!legaldata/raw/.gitkeep
-!legaldata/final/.gitkeep
 
 # Ignore Gemma model files
 model/models--google--gemma-2b-it/*
-!model/models--google--gemma-2b-it/.gitkeep
 
 # Ignore vector database files
 storage/*
-!storage/.gitkeep
 
 # Ignore logs or user-specific settings
 *.log
