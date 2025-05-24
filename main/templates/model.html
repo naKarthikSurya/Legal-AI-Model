@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Assistant - RTI & Legal AI</title>
+    <link rel="stylesheet" href="/main/static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-balance-scale"></i>
+                <h1>RTI & Legal AI Assistant</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/model" class="active">AI Assistant</a></li>
+                    <li><a href="/about">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="chat-interface">
+        <div class="container">
+            <!-- Left sidebar with tips and disclaimer -->
+            <div class="chat-sidebar">
+                <div class="sidebar-section disclaimer-section">
+                    <h3><i class="fas fa-exclamation-triangle"></i> Disclaimer</h3>
+                    <p>This AI assistant provides information for educational purposes only and does not constitute legal advice.</p>
+                    <p>Always verify critical information with official sources and consult qualified legal professionals for specific issues.</p>
+                </div>
+                
+                <div class="sidebar-section tips-section">
+                    <h3><i class="fas fa-lightbulb"></i> Tips for Better Results</h3>
+                    <ul class="tips-list">
+                        <li><i class="fas fa-bullseye"></i> Be specific with your questions</li>
+                        <li><i class="fas fa-language"></i> Use natural language</li>
+                        <li><i class="fas fa-info-circle"></i> Provide relevant context</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Main chat area -->
+            <div class="chat-main">
+                <div class="chat-header">
+                    <h1>RTI & Legal AI Assistant</h1>
+                    <p>Ask questions about Indian law and the Right to Information Act</p>
+                </div>
+
+                <!-- Chat messages will appear here -->
+                <div id="chat-messages" class="chat-messages">
+                    <div class="chat-message system-message">
+                        <div class="message-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="message-content">
+                            <p>Hello! I'm your RTI & Legal AI Assistant. I can help answer questions about the Right to Information Act and other aspects of Indian law. What would you like to know?</p>
+                        </div>
+                    </div>
+                    <!-- Chat history will be dynamically added here -->
+                </div>
+
+                <!-- Input area -->
+                <div class="chat-input-area">
+                    <form id="query-form">
+                        <div class="input-container">
+                            <input type="text" id="query-input" placeholder="Type your legal question here..." required>
+                            <button type="submit" id="submit-btn">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                
+                <!-- Loading indicator -->
+                <div id="loading" class="loading-indicator hidden">
+                    <div class="dot-typing"></div>
+                    <p>Researching legal information...</p>
+                </div>
+                
+                <!-- Error message -->
+                <div id="error-message" class="error-message hidden">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <p>Sorry, an error occurred. Please try again later.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clear history button - outside main chat to preserve space -->
+    <div class="container">
+        <button id="clear-history" class="clear-history-btn">
+            <i class="fas fa-trash"></i> Clear Conversation History
+        </button>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-balance-scale"></i>
+                    <h2>RTI & Legal AI Assistant</h2>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/model">AI Assistant</a></li>
+                        <li><a href="/about">About</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 RTI & Legal AI Assistant. All rights reserved.</p>
+                <p class="disclaimer">This AI assistant provides information for educational purposes only and does not constitute legal advice.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/main/static/model.js"></script>
+</body>
+</html>
