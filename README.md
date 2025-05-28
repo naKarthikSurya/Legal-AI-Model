@@ -5,6 +5,7 @@ A powerful, privacy-preserving legal information retrieval system designed speci
 
 > 🔐 All data is processed locally — no cloud APIs — ensuring 100% user data privacy.
 
+
 ---
 
 ## Features
@@ -49,7 +50,26 @@ LEGAL-AI-MODEL/
 ├── requirements.txt
 └── README.md                   # Project documentation
 ```
+---
 
+## ⚠️ Legal Dataset Notice
+
+>  **Important:** This repository **does not contain any legal PDFs or case judgment data**.
+
+Due to legal and privacy considerations, all legal datasets (acts, case judgments, etc.) must be collected and processed by the user.
+
+You are encouraged to gather your own legal resources such as:
+
+- Case judgments from public sources (e.g., Indian Kanoon)
+- Indian laws and acts (e.g., RTI Act, IPC, Environmental Acts)
+
+Please store them in the following structure:
+
+```plaintext
+legaldata/
+├── raw/              # Place raw PDF files (e.g., judgments, laws)
+└── final/            # Store preprocessed text file (e.g., Legal_corpus.txt)
+```
 ---
 
 ## Getting Started
