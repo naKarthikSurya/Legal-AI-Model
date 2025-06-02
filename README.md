@@ -1,5 +1,5 @@
 
-# ⚖️ Legal AI Assistant
+# Transformers-Based Legal Information Retrieval System
 
 A powerful, privacy-preserving legal information retrieval system designed specifically for Indian law. This system uses a locally deployed **Gemma 2B-IT** transformer model, optimized for consumer-grade machines with **4-bit quantization**, combined with **LlamaIndex** and **semantic search** for accurate, real-time, and context-aware answers to legal queries.
 
